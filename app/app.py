@@ -27,4 +27,4 @@ app = web.Application([
 if __name__ == '__main__':
     print('server listening on port 3000')
     app.listen(3000)
-    ioloop.IOLoop.instance().start()
+    ioloop.IOLoop.current().start()
